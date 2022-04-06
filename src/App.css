@@ -1,0 +1,304 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+.Groupmates{
+  display: flex;
+  margin-left: .2rem;
+  flex-direction: column;
+  font-size: .7rem;
+}
+.TeamHeader9{
+  display: flex;
+  background-color: #0655f3;
+  opacity: .5;
+  padding: 1rem;
+  font-size: 1rem;
+  margin: 0.1rem .2rem;
+  color: #fff;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+.Header{
+  background-color: #282c34;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem 0 2rem;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.TeamHeader8{
+ display: flex;
+ background-color: #282c34;
+ opacity: .5;
+ padding: 1rem;
+ font-size: 1rem;
+ margin: 0.1rem .2rem;
+ color: #fff;
+ border: 1px solid #0655f3;
+}
+.TeamHeader8:hover {
+  background-color: #021231;
+ }
+.Header2{
+  background-color: #282c34;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  font-size: 2rem;
+  margin-top: ;
+  color: white;
+}
+.Content{
+  background-color: #fff;
+  display: flex;
+  padding: 1rem; 
+ flex-direction: column;
+  gap: .5rem;
+}
+.ContentHeader{
+  background-color: #fff;
+  display: grid;
+  padding: .2rem;
+  grid-template-columns: 3fr 2fr;
+  gap: .5rem;
+}
+
+.p-link {
+  color: #61dafb;
+  text-align: start;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+button {
+  font-size: calc(10px + 2vmin);
+}
+
+.NewsList {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: .5rem;
+}
+.NoNewsMessage {
+  flex-grow: 1;
+  display: flex;
+  font-size: 1rem;
+  padding-top: 2rem;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.NoNewsMessage2 {
+  flex-grow: 1;
+  display: flex;
+  font-size: 1rem;
+  padding-top: 2rem;
+  text-align: center;
+  justify-content: center;
+  justify-self: center;
+  align-items: center;
+}
+.Item{
+  display: flex;
+  flex-direction: column;
+  border:1px solid #282c34;
+  grid-gap: .2rem;
+  padding: .5rem;
+}
+.Image{
+  width: 7rem;
+  height: 7rem;
+}
+.NewsHeader{
+  text-align: center;
+  font-size: large;
+  font-weight: 700;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.NewsHeader2{
+  text-align: start;
+  font-size: medium;
+  align-items: flex-start;
+  font-weight: 500;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.NewsHeader3{
+  text-align: center;
+  font-size: large;
+  align-items: flex-start;
+  font-weight: 700;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.Uppersection{
+  display: flex;
+  flex-direction: row;
+}
+.UppersectionRight{
+  gap: .3rem;
+  flex-direction: column;
+  height: 7rem;
+}
+.Headline{
+  font-weight: 700;
+  font-size: small;
+  text-overflow: ellipsis;
+  white-space: pre-wrap;
+  overflow: hidden;
+  text-align: start;
+  padding: .2rem;
+  justify-self: center;
+  align-self: center;
+  width: 100%;
+  
+}
+.providerSection{
+  padding: .2rem;
+  display: flex;
+  flex-direction: row;
+  gap:1rem;
+  width: 100%;
+  font-size: small;
+}
+.ProviderText{
+  text-align: center;
+  padding-top: .1rem;
+  align-items: center;
+}
+.Image2{
+  width: 2rem;
+  height: 1.8rem;
+}
+.date{
+  text-align: start;
+  align-items: end;
+  justify-self: end;
+  font-size: small;
+  padding: .2rem;
+}
+.description{
+  text-align: start;
+  justify-self: end;
+  font-size: small;
+  padding: .2rem;
+}
+.WeatherGrid{
+  background-color: #fff;
+  display: grid;
+  padding: 1rem;
+  grid-template-rows: auto 2fr;
+  gap: .5rem;
+}
+.WeatherInfor{
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  width: fit-content;
+  min-width: 20%;
+  border:1px solid #282c34;
+  padding: .3rem;
+  overflow-x: auto;
+  overflow-y: hidden;
+  justify-self: center;
+}
+.Tabs{
+  display: flex;
+  flex-direction: row;
+}
+
+.WeatherContent{
+  display: flex;
+  flex-direction: row;
+}
+.Smalldata{
+  display: flex;
+  flex-direction: column;
+
+}
+.WeatherHeader{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-right: .2rem;
+  border-right: 1px solid #282c34;
+}
+.WeatherIcon{
+  height: 2rem;
+  width: 2rem;
+  align-self: center;
+  justify-self: center;
+}
+.WeatherHeaderInfor{
+  display: flex;
+  flex-direction: column;
+  padding-left: .2rem;
+  padding-right: .2rem;
+  border-right: 1px solid #282c34;
+}
+.WeatherHeaderInfor2{
+  display: flex;
+  flex-direction: column;
+  
+}
+.NewsHeader4{
+  text-align: center;
+  font-size: 3.5rem;
+  align-items: flex-start;
+  font-weight: 700;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.NewsHeader5{
+  text-align: start;
+  font-size: 1rem;
+  align-items: flex-start;
+  font-weight: 400;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.NewsHeader7{
+  text-align: center;
+  font-size: 1rem;
+  align-items: flex-start;
+  font-weight: 400;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+@media only screen and (max-width: 921px)  {
+  .Content {
+    background-color: #fff;
+    display: flex;
+    padding: 1rem;
+    flex-direction: column;
+    gap: .5rem;
+  }
+  .NewsList{
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .ContentHeader{
+    display: none;
+  }
+  .Uppersection{
+    flex-direction: column;
+  }
+  .Image{
+   align-self: center;
+  }
+}
