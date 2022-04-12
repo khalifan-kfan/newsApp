@@ -25,7 +25,7 @@ function App() {
   const hours = new Date().getHours();
   const getWeatherNews = () => {
     setWLoader(true);
-  axios.post("https://study-api-weather.herokuapp.com/weather", {
+  axios.post("http://localhost:3000/weather", {
       lat: 0.34,
       lon: 32.58
     }).
