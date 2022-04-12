@@ -25,7 +25,7 @@ function App() {
   const hours = new Date().getHours();
   const getWeatherNews = () => {
     setWLoader(true);
-  axios.post("http://localhost:3000/weather", {
+  axios.post("http://localhost:5000/weather", {
       lat: 0.34,
       lon: 32.58
     }).
@@ -48,7 +48,7 @@ function App() {
   const getGlobalNews = () => {
     setNLoader(true);
     axios
-    .get("http://localhost:3000/global")
+    .get("http://localhost:5000/global")
     .then((res) => {
        if(res.status==201){
         //console.log(res.data.data.value);
