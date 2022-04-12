@@ -48,7 +48,7 @@ function App() {
   const getGlobalNews = () => {
     setNLoader(true);
     axios
-    .get("https://study-api-weather.herokuapp.com/global")
+    .get("http://localhost:3000/global")
     .then((res) => {
        if(res.status==201){
         //console.log(res.data.data.value);
